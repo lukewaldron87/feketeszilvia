@@ -10,12 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class BannerController {
 
-    @GetMapping("/greeting")
-    public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
-        return "greeting";
-    }
-
     //@GetMapping("/")
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home() {
@@ -25,6 +19,11 @@ public class BannerController {
     @GetMapping("/bio")
     public String bio() {
         return "bio";
+    }
+
+    @GetMapping("/gallery")
+    public String gallery() {
+        return "gallery";
     }
 
     @GetMapping("/error")

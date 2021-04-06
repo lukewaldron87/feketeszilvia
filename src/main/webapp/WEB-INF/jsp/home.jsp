@@ -13,13 +13,7 @@
 </head>
 <body>
 <jsp:include page="navbar.jsp"/>
-Home <a href="/bio">Bio</a> Gallery
-<p>Fekete Szilvia</p>
-
-test
-
-<p>Get your greeting <a href="/greeting">here</a></p>
-
+<img src="home.jpg" class="img-fluid" alt="Home Image">
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
