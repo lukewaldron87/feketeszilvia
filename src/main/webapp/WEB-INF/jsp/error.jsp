@@ -6,7 +6,7 @@
 </head>
 <body>
 Home <a href="/bio">Bio</a> Gallery
-<p>ERROR!!!!</a></p>
+<p>ERROR!!!!</p>
 
 </body>
 </html>
